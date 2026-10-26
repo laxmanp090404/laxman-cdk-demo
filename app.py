@@ -3,7 +3,7 @@ import aws_cdk as cdk
 from cdk_task.my_pipeline_stack import MyPipelineStack
 
 app = cdk.App()
-MyPipelineStack(app, "MyPipelineStack",
+MyPipelineStack(app, "LaxmanDemoStack",
     env=cdk.Environment(account="590852515231", region="us-east-1")
 )
 
