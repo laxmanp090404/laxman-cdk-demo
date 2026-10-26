@@ -15,7 +15,7 @@ class CdkTaskStack(Stack):
         bucket = s3.Bucket(
             self,
             "LaxmanDemoBucket",
-            bucket_name="laxman-demo-bucket-590852515231",
+            bucket_name="laxman-demo-bucket-updated-590852515231",
             versioned=True,
             removal_policy=RemovalPolicy.DESTROY,   
             auto_delete_objects=True,               
